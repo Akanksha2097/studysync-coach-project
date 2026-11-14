@@ -1,0 +1,8 @@
+StudySync Coach reliability evaluation
+PASS | 'How should I plan a focus session?' | sources=['Focus blocks', 'Spaced review'] | guardrail=None
+PASS | 'How can I remember what I read?' | sources=['Active recall', 'Choosing a study spot'] | guardrail=None
+PASS | 'Which study spot should I choose?' | sources=['Choosing a study spot', 'Focus blocks'] | guardrail=None
+PASS | 'What is the weather tomorrow?' | sources=[] | guardrail=insufficient_context
+PASS | '<empty>' | sources=[] | guardrail=empty_input
+PASS | 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' | sources=[] | guardrail=input_too_long
+Result: 6/6 checks passed
