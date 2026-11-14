@@ -1,0 +1,10 @@
+flowchart TD
+    A[Student question and study profile] --> B[Input guardrails]
+    B --> C[Local knowledge base]
+    C --> D[Term overlap retriever]
+    D --> E[Evidence context]
+    E --> F[Coach response generator]
+    F --> G[Answer with sources and confidence]
+    G --> H[Human review and next action]
+    D --> I[Evaluation harness]
+    I --> J[Pass fail and guardrail log]
